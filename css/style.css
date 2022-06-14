@@ -1,0 +1,164 @@
+body {
+    background-image: radial-gradient(circle, #212326, #1b1e24, #171822, #15121f, #14081b);
+}
+
+.navbar {
+    position: fixed;
+    background-color: #212326;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+
+}
+
+.logo {
+    width: 3%;
+    margin-right: 1rem;
+    transition-duration: 0.3s;
+  
+    
+}
+
+.logo:hover {
+    transform: translateY(-3px);
+
+}
+
+.anime-btn {
+    transition-duration: 0.5s;
+}
+
+.anime-btn:hover {
+    transform: translateY(-3px);
+}
+
+.manga-btn {
+    transition-duration: 0.5s;
+}
+
+.manga-btn:hover {
+    transform: translateY(-3px);
+}
+
+
+.bg-light {
+    background:#333232!important;
+ 
+}
+
+a {
+    color: #fff !important;
+}
+
+.search-input {
+    border-radius: 50px;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    border: 1px solid rgb(255, 5, 255);
+    font-family: inherit;
+    font-size: 1rem;
+    color: #fff;
+}
+
+button {
+    background-color: rgb(255, 5, 255) !important;
+}
+
+button:hover {
+    background-color: rgb(253, 173, 253) !important;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+
+}
+
+.animeBox {
+    color: #fff;
+    margin: 1.5rem;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #202020;
+    box-shadow: 4px 3px 8px 0px rgb(255, 5, 255);
+    transition-duration: 0.3s;
+    cursor: pointer;
+    width: 100%;
+}
+
+.animeBox:hover {
+    box-shadow: 4px 3px 11px 6px rgb(255, 5, 255);
+    transform: translateY(-3px);
+}
+
+.card-text span {
+    background-color: #050505;
+    border-radius: 3px;
+    padding: 0.25rem 0.5rem;
+    font-weight: bold;
+}
+
+span.green {
+    color: rgb(39, 189, 39);
+}
+
+span.semigreen {
+    color: rgb(107, 172, 107);
+}
+
+span.orange {
+    color: orange;
+}
+
+span.red {
+    color: rgb(189, 42, 42);
+}
+
+.details {
+    position: absolute;
+    background-color: #202020;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 100%;
+    overflow: auto;
+  
+    transform: translateY(101%);
+    transition: transform 0.3s ease-in;
+
+}
+
+.details h4 {
+    margin-top: 5%;
+    margin-right: 2%;
+    margin-left: 2%;
+    
+}
+
+.details h6 {
+
+    margin-right: 2%;
+    margin-left: 2%;
+    
+}
+
+.details h5 {
+    margin-top: 4%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.details p {
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.animeBox:hover .details {
+    transform: translateY(0);
+
+}
